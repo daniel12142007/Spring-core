@@ -1,4 +1,13 @@
 package org.example.models;
 
-public class Eagle {
+import org.example.interfaces.Animal;
+
+public class Eagle implements Animal {
+    public void minus() {
+
+    }
+
+    public void plus() {
+
+    }
 }

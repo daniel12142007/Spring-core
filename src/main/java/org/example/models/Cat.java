@@ -1,4 +1,13 @@
 package org.example.models;
 
-public class Cat {
+import org.example.interfaces.Animal;
+
+public class Cat implements Animal {
+    public void minus() {
+
+    }
+
+    public void plus() {
+
+    }
 }
