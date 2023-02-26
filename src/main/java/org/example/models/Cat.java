@@ -3,7 +3,7 @@ package org.example.models;
 import org.example.interfaces.Animal;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("cat")
 public class Cat implements Animal {
     public String minus() {
         return "Cats are very lazy";
