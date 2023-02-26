@@ -5,11 +5,11 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Cat implements Animal {
-    public void minus() {
-
+    public String minus() {
+        return "Cats are very lazy";
     }
 
-    public void plus() {
-
+    public String plus() {
+        return "Cats are very flexible";
     }
 }

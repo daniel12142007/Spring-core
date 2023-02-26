@@ -1,7 +1,7 @@
 package org.example.interfaces;
 
 public interface Animal {
-    void minus();
+    String minus();
 
-    void plus();
+    String plus();
 }
