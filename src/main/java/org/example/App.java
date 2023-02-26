@@ -2,8 +2,6 @@ package org.example;
 
 import org.example.MyConfiguration.Myconfig;
 import org.example.interfaces.Animal;
-import org.example.models.Cat;
-import org.example.models.Dog;
 import org.example.user.Person;
 import org.example.user.User;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
