@@ -2,7 +2,6 @@ package org.example.user;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.ToString;
 import org.example.interfaces.Animal;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;

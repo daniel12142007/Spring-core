@@ -4,7 +4,6 @@ import org.example.interfaces.Animal;
 import org.example.models.Cat;
 import org.example.models.Dog;
 import org.example.models.Eagle;
-import org.example.user.Person;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
