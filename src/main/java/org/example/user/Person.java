@@ -29,7 +29,7 @@ public class Person {
                "name->'" + name + '\'' +
                ", age->" + age +
                ", animal_plus->" + animal.plus() +
-               ", animal_minus" + animal.minus() +
+               ", animal_minus->" + animal.minus() +
                '}';
     }
 }

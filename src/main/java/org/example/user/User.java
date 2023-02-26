@@ -10,8 +10,9 @@ import org.springframework.stereotype.Component;
 @NoArgsConstructor
 @Data
 public class User {
+    @Value("${u.names}")
     private String name;
-
+    @Value("${u.age}")
     private int age;
     private Animal animal;
 
@@ -23,11 +24,11 @@ public class User {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "User{" +
                "name->'" + name + '\'' +
                ", age->" + age +
                ", animal_plus->" + animal.plus() +
-               ", animal_minus" + animal.minus() +
+               ", animal_minus->" + animal.minus() +
                '}';
     }
 }
