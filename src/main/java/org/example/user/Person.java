@@ -26,9 +26,10 @@ public class Person {
     @Override
     public String toString() {
         return "Person{" +
-               "name='" + name + '\'' +
-               ", age=" + age +
-               ", animal=" + animal +
+               "name->'" + name + '\'' +
+               ", age->" + age +
+               ", animal_plus->" + animal.plus() +
+               ", animal_minus" + animal.minus() +
                '}';
     }
 }

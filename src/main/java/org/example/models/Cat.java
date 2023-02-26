@@ -9,8 +9,6 @@ import org.springframework.stereotype.Component;
 @Data
 @Component("cat")
 public class Cat implements Animal {
-    public Cat() {
-    }
 
     public String minus() {
         return "Cats are very lazy";

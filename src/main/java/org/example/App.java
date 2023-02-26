@@ -10,8 +10,6 @@ public class App {
         AnnotationConfigApplicationContext app = new AnnotationConfigApplicationContext(Myconfig.class);
         Person person = (Person) app.getBean("person");
         person.setAnimal(new Cat());
-        System.out.println("name->"+person.getName());
-        System.out.println("age->"+person.getAge());
-        System.out.println("animal->"+person.getAnimal());
+        System.out.println(person);
     }
 }
